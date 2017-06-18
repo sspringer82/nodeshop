@@ -60,10 +60,5 @@ module.exports = {
     } catch (e) {
       console.log(e);
     }
-  },
-
-  getAll() {
-    const csvDb = new CsvDb('data/carts.csv');
-    return csvDb.get()
   }
 }
