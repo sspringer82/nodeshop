@@ -1,0 +1,13 @@
+event;time;sid;payload;id;
+createCart;1497798899060;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;;1;
+addItem;1497798900747;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;{"amount":1,"id":"1"};2;
+addItem;1497798901154;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;{"amount":1,"id":"2"};3;
+createCart;1497798901577;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;;4;
+addItem;1497798928034;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;{"amount":1,"id":"4"};5;
+createCart;1497798928522;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;;6;
+addItem;1497798929419;LKOTT1bxL_AUlvwRtNTa51_rMCA97GEH;{"amount":1,"id":"2"};7;
+createCart;1497799020344;GHkrWBxm4106UOmvZeD7ocELHZZL_x_C;;8;
+addItem;1497799021781;GHkrWBxm4106UOmvZeD7ocELHZZL_x_C;{"amount":1,"id":"1"};9;
+addItem;1497799022452;GHkrWBxm4106UOmvZeD7ocELHZZL_x_C;{"amount":1,"id":"2"};10;
+updateItem;1497799029957;GHkrWBxm4106UOmvZeD7ocELHZZL_x_C;{"amount":5,"id":"2"};11;
+closeCart;1497799030864;GHkrWBxm4106UOmvZeD7ocELHZZL_x_C;;12;
