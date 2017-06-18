@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Here are all the articles you can buy</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <h1>
+      Here is a fine selection of articles you can buy
+    </h1>
+
+
+    <% articles.forEach(article => { %>
+      <div class="listItem" data-id="<%= article.id %>">
+        <div class="title container">
+          <%= article.title %>
+        </div>
+        <div class="container">
+          Amount: <input type="text" class="amount" value="1">
+        </div>
+        <div class="container">
+          <button class="addToCart">Add to cart</button>
+        </div>
+      </div>
+    <% }); %>
+
+    <a href="/checkout">Checkout</a>
+
+    <script src="js/addToCart.js"></script>
+  </body>
+</html>

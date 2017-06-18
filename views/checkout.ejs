@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Here are all the articles you can buy</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <h1>
+      Here is what you bought so far:
+    </h1>
+
+    <% cart.forEach(item => { %>
+      <div class="listItem" data-id="<%= item.id %>">
+        <div class="title container">
+          <%= item.title %>
+        </div>
+        <div class="container">
+          Amount: <input type="text" class="amount" value="<%= item.amount %>">
+        </div>
+        <div class="container">
+          <button class="addToCart">Update</button>
+        </div>
+      </div>
+    <% }); %>
+
+    <% if (cart.length === 0) { %>
+      You didn't buy anything. Go back to <a href="/">start</a>
+    <% } else { %>
+      <button id="buy" href="/buy">buy</button>
+    <% } %>
+    
+    
+
+    <script src="js/checkout.js"></script>
+  </body>
+</html>
