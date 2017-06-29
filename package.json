@@ -1,0 +1,22 @@
+{
+  "name": "nodeshop",
+  "version": "2.0.0",
+  "description": "A simple webshop based on node microservices",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspringer82/nodeshop.git"
+  },
+  "author": "Sebastian Springer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspringer82/nodeshop/issues"
+  },
+  "homepage": "https://github.com/sspringer82/nodeshop#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "spdy": "^3.4.7"
+  }
+}
