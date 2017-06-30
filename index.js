@@ -3,10 +3,14 @@ const router = require('./router');
 const spdy = require('spdy');
 const fs = require('fs');
 
+const articles = require('./article/router');
+
 const app = express();
 app.set('view engine', 'ejs');
 
-router(app);
+app.use('/article', articles);
+
+//router(app);
 
 const options = {
     key: fs.readFileSync('./cert/key.pem'),
